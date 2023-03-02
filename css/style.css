@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: rgba(249, 182, 134, 0.49);
+}
+
+.nav-image {
+    height: 50px;
+}
+
+.nav-image img {
+    height: 100%;
+}
+
+.nav-name{
+    color: black;
+    background-position-x: left;
+}
+
