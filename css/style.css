@@ -38,3 +38,13 @@ nav {
     border-radius: 9px;
     margin-left: 10px;
 }
+
+.background {
+    height: 80vh;
+    width: 100vw;
+}
+
+.background img{
+height: 100%;
+width: 100%;
+}   
