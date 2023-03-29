@@ -76,6 +76,13 @@
   align-items: center;
 }
 
+.footer-nav-logo {
+  display: flex;
+  align-items: center;
+  height: 300%;
+  margin-left: -50px;
+}
+
 .footer-nav-image {
   height: 6vh;
 }
