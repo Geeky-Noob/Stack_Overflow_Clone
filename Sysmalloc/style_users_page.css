@@ -5,6 +5,9 @@
 }
 
 .header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   background: rgba(249, 182, 134, 0.49);
   /* position: fixed; */
   padding: 2% 5%;
@@ -15,6 +18,9 @@
   /* margin-top: 0vh; */
 }
 
+.container {
+  margin-top: 8vh;
+}
 .nav-image {
   height: 6vh;
 }
@@ -213,12 +219,13 @@
 }
 
 .sidebar {
+  position: sticky;
   background: #edede1;
   float: left;
   /* position: fixed; */
   /* margin-top: 8vh; */
   width: 16%;
-  height: 80vh;
+  height: 84vh;
   padding: 20px 0;
 }
 
@@ -253,7 +260,7 @@
   height: 8vh;
   width: 100vw;
   padding: 2% 5%;
-  margin-top: 90vh;
+  /* margin-top: 84vh; */
   display: flex;
   align-items: center;
 }
@@ -318,10 +325,10 @@
   margin-top: -1.5vh;
 }
 
-.sitecredits {
+/* .sitecredits {
   color: white;
   position: absolute;
   font-size: 2vh;
   margin-top: 5.8vh;
   margin-left: 164vh;
-}
+} */
