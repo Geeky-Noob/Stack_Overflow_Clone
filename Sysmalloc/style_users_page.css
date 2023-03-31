@@ -85,7 +85,9 @@
 .main_content {
   float: right;
   width: 84%;
+  height: 84vh;
   position: relative;
+  overflow: scroll;
 }
 
 .top_ques {
