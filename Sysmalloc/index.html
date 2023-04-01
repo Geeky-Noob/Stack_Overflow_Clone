@@ -20,20 +20,47 @@
         <div class="nav-search">
           <input class="search" type="text" placeholder="Search" />
         </div>
-        <p class="nav-login">Log In</p>
+        <!-- <p class="nav-login">Log In</p> -->
+        <div class="nav-login">
+          <a href="#" id="login-btn" onclick="login_func()">Login</a>
+          <!-- The login-pop-up box -->
+          <div class="pop-outer1">
+            <div class="popup-box1">
+              <form>
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="name" />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+                <div class="button-container1">
+                  <button type="submit" class="signup">Login</button>
+                  <button type="submit" class="cancel" onclick="cancel1()">
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
         <div class="nav-signup">
           <a href="#" id="signup-btn" onclick="sign_up_func()">Sign Up</a>
-          <!-- The pop-up box -->
-          <div class="popup-box">
-            <form>
-              <label for="name">Username:</label>
-              <input type="text" id="name" name="name" />
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" />
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password" />
-              <button type="submit">Sign Up</button>
-            </form>
+          <!-- The sign-up-pop-up box -->
+          <div class="pop-outer2">
+            <div class="popup-box2">
+              <form>
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="name" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+                <div class="button-container2">
+                  <button type="submit" class="signup">Sign Up</button>
+                  <button type="submit" class="cancel" onclick="cancel2()">
+                    Cancel
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </nav>

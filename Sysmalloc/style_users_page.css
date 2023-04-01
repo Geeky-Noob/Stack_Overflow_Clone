@@ -221,7 +221,7 @@
 }
 
 .sidebar {
-  position: sticky;
+  /* position: sticky; */
   background: #edede1;
   float: left;
   /* position: fixed; */
@@ -327,10 +327,10 @@
   margin-top: -1.5vh;
 }
 
-/* .sitecredits {
+.sitecredits {
   color: white;
   position: absolute;
   font-size: 2vh;
   margin-top: 5.8vh;
   margin-left: 164vh;
-} */
+}
